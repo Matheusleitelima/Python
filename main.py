@@ -1,0 +1,13 @@
+
+'''
+Comentario em duas linhas
+Autor:
+Data:
+Versão:
+
+'''
+
+#meu primeiro codigo.(comentario em uma linha)
+
+print("Hello World")
+print('Tudo bem?')
