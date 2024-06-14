@@ -1,0 +1,13 @@
+Texto:
+String= str("Texto")
+
+Boolean Type:
+
+bool: true
+bool: false
+
+Numeros:
+
+Integer= inteiros(1, 2, 3)
+
+Float= fração( 10.6, 9.7)
