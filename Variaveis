@@ -1,0 +1,34 @@
+Variavel é como foss uma caixa que armazenar dados do tipo inteiro string ou float.
+
+Inteiro
+
+x = 2
+
+print(x)
+#nesse caso sera impresso o numero 2.
+
+
+Soma de Inteiros
+
+x=2
+
+print (x + x)
+#nesse caso estar realizando a soma da variavel x que armazena o numero 2.
+
+
+
+Strings
+
+x= 'ola'
+
+print (x)
+
+#nesse caso será impresso Ola.
+
+Float
+x= 4.2
+
+print(x)
+#nesse caso será impresso o numero 4.2
+
+
