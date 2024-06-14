@@ -3,7 +3,7 @@
 
 x = 2
 
-print(x * 10)
+print(x)
 #nesse caso sera impresso o numero 2.
 
 
