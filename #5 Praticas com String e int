@@ -16,3 +16,11 @@ cidade = 'São Paulo'
 print('O '+ nome + ' tem ' + idade + ' anos de idade e mora em ' + cidade +'.')
 
 '''
+
+
+nome= 'Matheus'
+idade= 18
+idade= str(idade)
+cidade='Fortaleza'
+
+print('O '+ nome + ' tem '+ idade + ' anos e mora em '+ cidade + '.')
