@@ -7,3 +7,16 @@ idade= str(idade)
 cidade= input('Qual cidade mora:')
 
 print('O '+ nome + ' tem '+ idade + ' anos e mora em '+ cidade + '.')
+
+
+
+EXEMPLO 1
+
+nome= input('Digite seu nome:')
+idade= input('Digite sua idade:')
+idade= str(idade)
+saldo= float (input('Digite seu saldo:'))
+saldo= str(saldo)
+banco= input('Digite seu banco:')
+
+print('O '+ nome + ' tem '+ idade + ' anos e possui ' + saldo + ' reais em sua conta usando o '+ banco + '.')
