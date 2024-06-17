@@ -1,0 +1,9 @@
+
+input recebe as informações do usuario e armazena dentro da variavel.
+
+nome= input('Qual é seu nome:')
+idade= input('Qual sua idade:')
+idade= str(idade)
+cidade= input('Qual cidade mora:')
+
+print('O '+ nome + ' tem '+ idade + ' anos e mora em '+ cidade + '.')
