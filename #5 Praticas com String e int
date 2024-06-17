@@ -1,0 +1,18 @@
+nome = 'Andre'
+idade = 32
+cidade = 'São Paulo'
+
+#print('O '+nome+ ' tem ' +idade+ 'anos de idade e mora em '+cidade+'.'
+#Esse codigo da erro por conta da idade ser int.
+ print('O '+ nome + ' tem ' + str(idade)+ ' anos de idade e mora em ' + cidade +'.')
+
+Outra forma de resolver 
+'''
+nome = 'Andre'
+idade = 32
+idade = str(idade)
+cidade = 'São Paulo'
+
+print('O '+ nome + ' tem ' + idade + ' anos de idade e mora em ' + cidade +'.')
+
+'''
