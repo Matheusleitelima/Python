@@ -1,0 +1,17 @@
+
+'''
+Como saber o tipo da variavel
+
+ano_nascimento= input('Qual é sua idade: ')
+print(type(ano_nascimento))
+
+idade= 2020
+print(type(idade))
+'''
+
+ano_nascimento= input('Em que ano voce nasceu: ')
+#E possivel colocar o int antes do input: int(input('Em que ano voce nasceu: ))
+
+idade = 2020 - int(ano_nascimento)
+
+print(idade)
