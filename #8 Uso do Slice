@@ -1,0 +1,23 @@
+
+'''
+Slice é usado para puxar uma parte do dado de uma string.
+
+fruta= 'Abacate'
+#index  0123456
+
+print(fruta[3])
+
+print(fruta[2:5])
+Vai excluir o ultimo caracter , para imprimir até a letra T é necessario
+ adicionar mais um caracter na execução.
+
+print(fruta[2:6])
+'''
+
+#Para usar o slice com numeros é necessario transformar para string.
+
+valor= 99.75
+
+valor= str(valor)
+
+print(valor[2:5])
