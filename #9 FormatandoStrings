@@ -1,0 +1,19 @@
+
+
+nome = 'Marcos'
+sobrenome = 'Silva'
+profissao = 'Programador'
+
+texto = 'O ' + nome + ' '+ sobrenome + ' e um execelente '+ ' '+ '[' + profissao + ']'
+#Sem a formatação
+
+texto2 = f'O {nome} {sobrenome} e um execelente [{profissao}]'
+#Com a formatação
+
+print (texto)
+
+print (texto2)
+
+
+
+
