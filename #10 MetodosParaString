@@ -1,0 +1,21 @@
+mensagem = '  eu adoro comer comida Caseira'
+
+print(mensagem.upper())
+#Faz com que as letras sejam maiusculas
+
+print(mensagem.lower())
+#Faz com que as letras sejam minusculas
+
+print(mensagem.capitalize())
+#faz com que a primeira letra da string seja maiuscula
+
+print(mensagem.find('c'))
+#procura a posição do caracter
+
+print(mensagem.replace('a', 'e'))
+#Troca a letra inserida por outra, e palavras.
+
+print(mensagem.replace('Caseira', 'feita em casa'))
+
+print(mensagem.strip())
+#Faz com que remova os espaços digitados no inicio da string.
