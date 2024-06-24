@@ -1,0 +1,20 @@
+calculo = 2 + 2 * 3/2
+
+print(calculo)
+
+#1 Multiplicação e Divisão
+#2 Adição e Subtração
+
+
+calculo = (2+2) * 3
+
+print (calculo)
+
+#Com os parenteses o calculo da soma vem primeiro
+
+
+calculo = 2**3
+
+print(calculo)
+
+#Expoente
