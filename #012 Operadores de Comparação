@@ -1,0 +1,48 @@
+operadores = 10 == 10
+
+print (operadores)
+
+
+operadores = 10 == 1
+
+print (operadores)
+
+operadores = 'banana' == 'banana'
+
+print (operadores)
+
+operadores = 'banana' == 'Banana'
+
+print (operadores)
+
+
+operadores = 'banana' != 'moto'
+
+print(operadores)
+
+
+operadores = 10 > 9
+
+print(operadores)
+
+operadores = 10 < 9
+
+print (operadores)
+
+operadores = 10 >= 9
+
+print(operadores)
+
+operadores = 10 <= 9
+
+print (operadores)
+
+
+
+
+# == igual
+# != diferente
+# > maior que
+# < menor que
+# >= maior igual
+# <= menor igual
