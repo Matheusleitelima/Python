@@ -1,0 +1,15 @@
+velocidade = 100
+
+if velocidade > 110:
+    print('Acima da velocidade')
+    print('Reduza a velocidade')
+#Indentação, os dois prints estão dentro da condição if.
+
+elif velocidade < 60:
+    print('Dirija acima de 60KM')
+#Elif pode ser usado quantas vezes voce quiser no codigo.
+
+else:
+    print('Velocidade OK!')
+
+#indetação, print dentro do else.
