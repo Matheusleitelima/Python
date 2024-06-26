@@ -12,4 +12,4 @@ elif velocidade < 60:
 else:
     print('Velocidade OK!')
 
-#indetação, print dentro do else.
+#indentação, print dentro do else.
