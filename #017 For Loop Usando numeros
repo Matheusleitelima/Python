@@ -17,3 +17,8 @@
     #Star = Inicio 1 posição do Range
     #Stop = Fim 2 posição do Range
     #Step = Incremento 3 posição do Range
+
+#Para decrementar
+
+for numero in range(10, 1, -2):
+    print (numero)
