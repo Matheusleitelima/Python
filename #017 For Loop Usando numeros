@@ -1,0 +1,19 @@
+  
+    #Uso do for in range
+    for numero in range (5):
+        print(numero)
+
+    for numero in range(6):
+        print(numero)
+
+    #Usando for com start, stop e step
+    for numero in range (1,6):
+        print(numero)
+
+
+    for numero in range(1,6,2):
+        print (numero)
+
+    #Star = Inicio 1 posição do Range
+    #Stop = Fim 2 posição do Range
+    #Step = Incremento 3 posição do Range
