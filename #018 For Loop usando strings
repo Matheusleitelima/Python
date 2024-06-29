@@ -13,3 +13,11 @@ for letras in 'Google':
 
 for letra in palavra:
     print(f'{letra} estar dentro da palavra {palavra}')
+
+
+#Imprimir a palavra toda
+
+palavra = 'Google'
+
+for letra in palavra:
+    print (palavra)
