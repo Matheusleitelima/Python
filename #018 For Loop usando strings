@@ -23,9 +23,4 @@ for letra in palavra:
     print (palavra)
 
 
-#Para repetir a palavra em um determinado numero de vezes
 
-palavra = 'teclado'
-
-for _ in range(4):
-    print (palavra)
