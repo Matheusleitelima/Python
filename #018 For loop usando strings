@@ -1,0 +1,15 @@
+ 
+
+palavra = 'Google'
+
+for letra in palavra:
+    print(letra)
+
+
+
+for letras in 'Google':
+    print(letras)
+
+
+for letra in palavra:
+    print(f'{letra} estar dentro da palavra {palavra}')
