@@ -1,0 +1,15 @@
+
+
+#Outer Loop 
+  #Inner Loop
+#Um loop dentro do outro.
+
+for numero1 in range(1,6):
+    print('Produto' + str(numero1))
+    for numero2 in range(5):
+        print(numero1, numero2)
+
+#O produto equivale ao primeiro for loop.
+#Os numeros equivale ao segundo for loop.
+
+
