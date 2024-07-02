@@ -1,0 +1,7 @@
+  
+palavra = 'especial'
+
+for espaco in palavra:
+    print(f' {espaco}', end='')
+
+#End ira finalizar o loop assim que concluir o print.
