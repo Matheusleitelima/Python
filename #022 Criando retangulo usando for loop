@@ -1,0 +1,13 @@
+
+#Retangulo 6x6
+
+linhas =  6
+coluna = 6
+simbolo = '@'
+
+for l in range(linhas):
+    for c in range(coluna):
+        print(simbolo, end= '')
+    print( )
+
+#print será referente ao loop de linhas e funcionara como um enter.
