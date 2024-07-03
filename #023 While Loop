@@ -9,3 +9,31 @@ while valor > 20:
     valor -= 5
 
 #While Loop é utizado quando tem condições.
+
+
+print('1 - Cadastro')
+print('2 - Sair')
+opc = int(input('Digite uma opção:'))
+if opc == 1:
+    while opc ==1:
+        idade= int(input('Digite sua idade: '))
+        verificar_idade = idade
+        if verificar_idade >= 16:
+            verificar_idade = True
+            break
+        else:
+            verificar_idade = False
+            break
+    nome = input('Digite seu nome:')
+    if nome and verificar_idade:
+        print('Cadastro Valido')
+    else:
+        print('Cadastro invalido')
+
+elif opc == 2:
+    print('Obrigado por nos visitar')
+
+else:
+    print('Digite uma opção valida')
+    
+
