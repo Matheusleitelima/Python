@@ -1,0 +1,11 @@
+
+
+valor = 100
+dia = 0
+
+while valor > 20:
+    dia += 1
+    print(f'No dia {dia} o valor do produto é de R${valor}')
+    valor -= 5
+
+#While Loop é utizado quando tem condições.
