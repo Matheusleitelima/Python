@@ -1,0 +1,10 @@
+#Dry Code "Dont Repeat Yourself"
+
+def boas_vindas():
+#Como criar uma função
+    print('Olá seja bem vindo')
+    print('Possui 7 laptops disponiveis.')
+
+
+boas_vindas()
+#Como chamar uma função
