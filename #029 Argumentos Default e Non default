@@ -1,0 +1,12 @@
+
+
+def boas_vindas(nome, quantidade= 6):
+    #Non default = nome Default = quantidade
+    #Non default é quando não definimor um valor ao parametro
+    #Default e quando definimos um valor ao parametra
+    #Ordem: (Non default, Default)
+    print(f'bem vindo {nome}')
+    print(f'Possuimos {str(quantidade)} de laptops')
+
+
+boas_vindas('Marcos')
