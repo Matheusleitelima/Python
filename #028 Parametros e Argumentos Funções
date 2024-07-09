@@ -1,0 +1,14 @@
+
+def boas_vindas(nome, quantidade):
+    #Nome e quantidade são parametros
+    print(f'Olá {nome}')
+    print(f'Temos {str(quantidade)} laptops')
+
+
+boas_vindas('Marcos', 5)
+#Marcos e 5 são argumentos.
+
+boas_vindas('Ronald', 4)
+
+boas_vindas('Bia', 2)
+
