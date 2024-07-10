@@ -10,3 +10,21 @@ def boas_vindas(nome, quantidade= 6):
 
 
 boas_vindas('Marcos')
+
+PRINT OU RETURN EM FUNÇÕES
+
+
+def cliente1(nome):
+    print(f'Ola {nome}')
+
+cliente1('Maria')
+
+#Print apenas realiza a tarefa de exibir na tela.
+
+def cliente2(nome):
+    return f'Olá {nome}'
+
+
+x = cliente2('Jose')
+print(x)
+#return armazena a informação em uma variavel
