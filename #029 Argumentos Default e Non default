@@ -28,3 +28,18 @@ def cliente2(nome):
 x = cliente2('Jose')
 print(x)
 #return armazena a informação em uma variavel
+
+
+
+
+def soma(num1, num2):
+    return num1 + num2
+
+
+num1= int(input('Digite o numero 1: '))
+
+num2 = int(input('Digite o numero 2: '))
+
+resultado = soma(num1, num2)
+
+print(resultado)
