@@ -1,0 +1,6 @@
+def agencia(**carros):
+    # 1 * significa que passar varios argumentos e 2 * siginifica que pode passar varios parametros.
+    return carros
+
+
+print(agencia(marca= 'gol', cor='Branca', moto= 1.0))
