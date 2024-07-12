@@ -1,0 +1,4 @@
+import math
+#Modulo 
+
+print(math.factorial(7))
