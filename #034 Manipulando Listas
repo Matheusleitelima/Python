@@ -1,0 +1,9 @@
+cidades = ['Rio de Janeiro', 'São Paulo', 'Salvador', 'Goiania']
+
+print(cidades[0])
+#Chamar um item de uma posição da lista
+
+cidades[1] = 'Brasilia'
+#Modificar um item da lista
+
+print(cidades)
