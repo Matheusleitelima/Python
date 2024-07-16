@@ -1,0 +1,20 @@
+
+numeros = [1, 2, 3, 4, 5,]
+letras= ['a', 'b', 'c', 'd']
+
+numeros. extend(letras)
+print(numeros)
+
+#Lista numeros com a lista de letras
+
+itens = [['item1', 'item2'], ['item3', 'item4']]
+#Duas lista dentro de uma lista
+
+print(itens[0])
+#Lista no index 0
+
+print(itens[1])
+#Lista no index 1
+
+print(itens[0][1])
+#lista no index 0 na posição 1
