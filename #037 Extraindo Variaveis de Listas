@@ -1,0 +1,11 @@
+produtos = ['arroz', 'feijão', 'banana', 'laranja', 1, 2, 3 , 4]
+
+item1, item2, item3, item4, *outros = produtos
+#Cada item é uma posição da lista.
+
+
+print(item1)
+print(item2)
+print(item3)
+print(item4)
+print(outros)
