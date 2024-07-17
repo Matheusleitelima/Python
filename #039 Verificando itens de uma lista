@@ -1,0 +1,10 @@
+
+cor_cliente = input('Digite uma cor desejada: ')
+
+cores = ['amarelo', 'azul', 'verde', 'vermelho']
+
+if cor_cliente.lower() in cores:
+    print('Cor em estoque')
+
+else:
+    print('não temos essa cor em estoque')
