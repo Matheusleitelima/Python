@@ -1,0 +1,6 @@
+frutas_usuario = input('Digte a fruta com virgulas: ')
+
+frutas_lista = frutas_usuario.split(', ')
+#Split tira a , e transforma o que foi digitado em listas
+
+print(frutas_lista)
