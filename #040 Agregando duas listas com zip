@@ -1,0 +1,8 @@
+cores = ['amarelo', 'verde', 'azul', 'vermelho']
+valores = [10, 20, 30, 40]
+
+duas_listas = zip(cores, valores)
+#Zip junta as duas listas
+
+print(list(duas_listas))
+#List = formato de listas
