@@ -1,0 +1,16 @@
+
+from array import array
+#Importar a função array
+
+letras = array('u', ['a', 'b', 'c', 'd'])
+#u é o tipo de array.
+numeros_i = array('i', [10, 20, 30, 40])
+
+numeros_f = array('f', [1.2, 2.2, 3.2])
+
+print(letras)
+print(numeros_i)
+print(numeros_f)
+
+#Arrays são utilizadas quando a lista ultrapassa mais de 1000 itens
+#Doc: https://docs.python.org/pt-br/3.7/library/array.html
