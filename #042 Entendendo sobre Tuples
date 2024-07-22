@@ -1,0 +1,6 @@
+
+cores_tuples = ('Amarelo', 'Azul', 'Verde')
+
+#Tuplas não podem ser alteradas, diferente das listas, não é possivel alterar seus dados.
+
+print(cores_tuples)
