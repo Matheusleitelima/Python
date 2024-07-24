@@ -1,0 +1,19 @@
+#Parecidas com lista
+#Evita itens duplicados
+#Sem index
+
+s1 = {1, 2, 3, 4, 5, 6 ,7 }
+
+s1.add(2)
+#Adicionar um item, não duplica item.
+
+s1.update([8, 9, 10])
+#Adicionar uma lista de itens, não duplica item.
+
+s1.remove(10)
+#Remover um item se ele estiver no sets, se não estiver dá erro
+
+s1.discard(90)
+#Descarta um item mesmo se ele não tiver no sets
+
+print(s1)
