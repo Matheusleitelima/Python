@@ -1,0 +1,9 @@
+
+#Utiliza inde no formato de keys e values
+#Aceita strings, integer,float, boolean.
+
+aluno = {'nome': 'Ana', 'idade' :16, 'nota_final': 'a', 'aprovação': True}
+
+print(aluno)
+
+print(aluno['nome'])
