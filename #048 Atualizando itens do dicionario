@@ -1,0 +1,21 @@
+aluno ={'nome': 'ana', 'idade': '16', 'nota': 'a'}
+
+aluno ['nome'] = 'jose'
+
+aluno.update ({'nome': 'Jose', 'nota': 'b'})
+#Update serve para atualizar itens ou adicionar itens
+
+aluno.update({'endereco': 'rua a'})
+#Update consegue atualizar varios keys e valores
+
+print(aluno)
+
+print(aluno.get('nome'))
+#Get serve para pegar um dado dentro da lista
+
+print(aluno.get('nota_primeira', 'Dado não encontrado'))
+#Quando o dado não é encontrado o get retorna None, porém no segundo stateman é possivel adicionar uma mensagem ao usuario.
+
+del aluno['nota']
+#Del serve para remover um dado.
+print(aluno)
