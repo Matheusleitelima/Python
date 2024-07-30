@@ -1,0 +1,20 @@
+
+
+aluno = {'nome': 'ana', 'idade': 16, 'nota': 'a'}
+
+
+for x in aluno.keys():
+    print(x)
+#Vai imprimir somente as keys
+
+for y in aluno.values():
+    print(y)
+#Vai imprimir somente os valores
+
+for x in aluno.items():
+    print(x)
+#Vai imprimir as keys e valores em formato de tuplas
+
+for keys, values in aluno.items():
+    print(keys, values)
+#Vai imprimir sem estar em formato de tuplas
