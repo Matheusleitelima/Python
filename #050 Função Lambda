@@ -1,0 +1,8 @@
+
+somar10 = lambda x: x + 10
+
+print(somar10(2))
+
+#Uma função pequena e sem nome
+#Pode ter varios argumentos e 1 expressão
+#Muito utilizada dentro de função
