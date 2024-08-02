@@ -10,3 +10,6 @@ lista2 = map(multi, lista1)
 
 
 print(list(lista2))
+
+
+Documentação https://docs.python.org/pt-br/3/library/functions.html
