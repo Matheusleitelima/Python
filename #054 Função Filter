@@ -1,0 +1,11 @@
+#Função Map = Usado para aplicar uma função em items da lista.
+#Função Filter = Usado para aplicar uma função que possui condicionais em uma lista.
+
+valores = [10, 12, 34, 44, 53]
+
+def remover20(x):
+    return x > 20
+
+print(list(map(remover20, valores)))
+
+print(list(filter(remover20, valores)))
