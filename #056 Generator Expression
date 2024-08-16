@@ -1,0 +1,18 @@
+from sys import getsizeof
+#Tamanho em bytes
+
+#Uma forma mais rapida para lista, dicionario e etc.
+#Menos memoria alocada
+#Tamanho em bytes
+
+
+lista = [x * 10 for x in range(100)]
+print(type(lista))
+print(getsizeof(lista))
+
+print("=============================================")
+
+
+lista = (x * 10 for x in range(100))
+print(type(lista))
+print(getsizeof(lista))
