@@ -11,3 +11,12 @@ frutas1 = ['abacate', 'banana', 'morango', 'kiwi', 'abacaxi']
 frutas2 = [iten for iten  in frutas1 if 'b' in iten]
 
 print(frutas2)
+
+
+
+#List Comprehesion com numeros
+
+valores = [x * 10 for x in range(6)]
+
+print(valores)
+
