@@ -1,0 +1,23 @@
+#Execelente para teste
+#Não realiza 'Stop' no programa
+#Mensagem customizada para erro
+
+#Try expecept com listas
+try:
+    letras = ['a', 'b', 'c']
+    print(letras[3])
+
+except IndexError:
+    print('Não possui esse index')
+
+
+#Try except com input
+
+try:
+    valor = int(input('Digite um valor: '))
+    print(valor)
+
+except ValueError:
+    print('Digite um valor em numero')
+
+
