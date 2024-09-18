@@ -1,0 +1,18 @@
+#Else só será exibido se o Try não tiver erro.
+try:
+    valor = int(input("Digite um valor: "))
+    print(valor)
+except ValueError:
+    print('Valor invalido')
+else:
+    print("Valor correto!")
+
+
+#Finally será exibido mesmo se o Try de erro.
+try:
+    valor= int(input('Digite um valor: '))
+    print(valor)
+except ValueError:
+    print('Valor invalido')
+finally:
+    print('codigo certo')
