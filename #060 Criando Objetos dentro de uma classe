@@ -1,0 +1,18 @@
+class Funcionarios:
+    pass
+
+usuario1 = Funcionarios()
+usuario2 = Funcionarios()
+
+#Criando os parametros usuario1
+usuario1.nome = 'Elena'
+usuario1.sobrenome = 'Cabral'
+usuario1.dataNascimento = '12/07/2009'
+
+#Criando parametros usuario2
+usuario2.nome = 'Carol'
+usuario2.sobrenome = 'Silva'
+usuario2.dataNascimento = '04/07/2002'
+
+print(usuario1.nome)
+print(usuario2.nome)
