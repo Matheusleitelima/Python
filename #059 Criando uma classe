@@ -1,0 +1,10 @@
+class Funcionarios:
+    #Nome de Classe sempre com letra maiuscula.
+    nome = 'Helena'
+    sobrenome = 'Cabral'
+
+usuario1 = Funcionarios
+#Objeto da classe
+
+print(usuario1.nome)
+#Mostrando o dado de uma classe.
