@@ -1,0 +1,16 @@
+class Funcionarios:
+    #Contructors sempre vão começar com init.
+    #Self irá passar por todos os objetos(Usuario1, Usuario2)
+    def __init__(self, nome, sobrenome, data_nascimento):
+        self.nome = nome
+        self.sobrenome = sobrenome
+        self.data_nascimento = data_nascimento
+
+
+
+usuario1 = Funcionarios('Elena', 'Cabral', '10/07/2002')
+usuario2 = Funcionarios('Carol', 'Silva', '27/04/2008')
+
+
+print(usuario1.nome, usuario1.sobrenome)
+print(usuario2.nome, usuario2.sobrenome)
