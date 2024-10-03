@@ -1,3 +1,7 @@
+O construtor __init__ é como uma "receita" que a classe segue para montar o objeto com as informações que você dá,
+como nome e idade. Assim, cada vez que você cria uma nova Pessoa, ela já vem com esses dados prontos.
+
+
 class Funcionarios:
     #Contructors sempre vão começar com init.
     #Self irá passar por todos os objetos(Usuario1, Usuario2)
