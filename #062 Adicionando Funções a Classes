@@ -1,0 +1,16 @@
+  #As funções dentro de uma Classe podem ser ligadas.
+class Funcionarios:
+    def __init__(self, nome, sobrenome, data_nascimento):
+        self.nome = nome
+        self.sobrenome = sobrenome
+        self.data_nascimento = data_nascimento
+
+    def nome_completo(self):
+        return self.nome +' ' + self.sobrenome
+    
+
+usuario1 = Funcionarios('Elen', 'Cabral', '14/04/2002')
+usuario2 = Funcionarios('Carol', 'Silva', '12/03/2004')
+
+print(Funcionarios.nome_completo(usuario1))
+#imprimir a função dentro da classe
