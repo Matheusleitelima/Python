@@ -5,6 +5,6 @@ import function
 function.somar()
 function.multi()
 
-import function from somar
+from function import somar
 #Importa uma função especifica
 somar()
