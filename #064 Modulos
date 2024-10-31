@@ -1,0 +1,10 @@
+Criar um arquivo separado somente para funções, e deve ser chamado no arquivo principal.
+import function
+#Importa todas as funções
+
+function.somar()
+function.multi()
+
+import function from somar
+#Importa uma função especifica
+somar()
